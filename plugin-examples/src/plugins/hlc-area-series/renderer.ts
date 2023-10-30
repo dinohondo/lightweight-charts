@@ -107,7 +107,7 @@ export class HLCAreaSeriesRenderer<TData extends HLCAreaData>
 		bottomArea.addPath(closeLine);
 		bottomArea.lineTo(firstBar.x, firstBar.low);
 		bottomArea.closePath();
-		ctx.fillStyle = options.areaBottomColor;
+		ctx.fillStyle = 'linear-gradient(179.89deg, rgba(255, 255, 255, 0.62) 0.09%, rgba(255, 255, 255, 0) 86.73%)';
 		ctx.fill(bottomArea);
 
 		ctx.lineJoin = 'round';
